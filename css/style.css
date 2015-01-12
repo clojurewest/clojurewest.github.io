@@ -546,6 +546,7 @@
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
 			color: white;
+			font-weight: 450;
 		}
 
 			.wrapper.style2 .button:hover {
