@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://cognitect.github.io/clojurewest
+url: http://clojurewest.github.io
 title: Clojure/West 2015
 email: clojure-west@cognitect.com
 description: > # "Clojure/West 2015"
