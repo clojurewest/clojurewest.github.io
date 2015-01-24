@@ -274,6 +274,12 @@
 				width: 100%;
 			}
 
+/* Logo */
+
+	.logo {
+		border-bottom: 0px;
+	}
+
 /* Icon */
 
 	.icon {
