@@ -1042,3 +1042,9 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+/* Bio */
+
+.bio {
+	font-size: 75%;
+}
