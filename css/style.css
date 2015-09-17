@@ -28,7 +28,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #7c8081;
+		color: #1F1F1F;
 		font-family: 'Lato', sans-serif;
 		font-size: 15pt;
 		font-weight: 300;
@@ -486,7 +486,7 @@
 			text-align: left;
 		}
 		table.default thead {
-			background: #7c8081;
+			background: #1F1F1F;
 			color: #fff;
 		}
 
@@ -504,7 +504,7 @@
 			background: #FFF;
         }
 		td a { 
-			color: #7c8081;
+			color: #1F1F1F;
 		}
         td.slot {
             text-align: center;
@@ -933,7 +933,7 @@
 
 	#footer {
 		background: #e8eef4;
-		color: #7c8081;
+		color: #1F1F1F;
 		padding: 5em 5em 10em 5em;
 		text-align: center;
 	}
