@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
+{% include head.html %}
 
-	<body class="index loading">
-		<div class="alt">
-		{% include header.html %}
+<body class="index loading">
+	<div class="alt">
+	  {% include header.html %}
 	</div>
-		
-		<!-- Banner -->		
-			<section id="banner">
+
+	<section id="banner">
 				
-				<!--
-					".inner" is set up as an inline-block so it automatically expands
-					in both directions to fit whatever's inside it. This means it won't
-					automatically wrap lines, so be sure to use line breaks where
-					appropriate (<br />).
-				-->
-				<div class="inner">
+		<!--
+			".inner" is set up as an inline-block so it automatically expands
+			in both directions to fit whatever's inside it. This means it won't
+			automatically wrap lines, so be sure to use line breaks where
+			appropriate (<br />).
+		-->
+	<div class="inner">
 					
-					<header>
-					  <h2>clojure / west</h2>
-					</header>
-					<p>april 20-22, 2015<br>
-					  Portland, Oregon<br>
+		<header>
+			<h2>clojure / west</h2>
+		</header>
+		<p>april 15-16, 2016<br>
+			seattle, washington<br>
 				  </p>
 					<footer>
 						<img src="images/clojure.png" height="149" width="150" alt="Clojure"/>
@@ -39,363 +38,30 @@
 		
 			<!-- Main -->
 			<article id="main">
-		<!--
 				<header class="special container">
 					<span class="icon fa-bar-chart-o"></span>
-					<h2>Join us for Clojure/west</h2>
-					<p>We are excited to return to Portland this year for Clojure/West!</p>
-					</header>
-					-->
-				<!-- One -->                
-					<section class="wrapper style1 container special">					
-					<h2>training</h2>
-					<p>Location: Embassy Suites Portland Downtown, 391 SW Pine Street</p>
-
-								<table><tbody>
-									<tr>
-										<th class="recess">Sat Apr 18</th>
-										<th class="recess">Gevurtz</th>
-										<th class="recess">Fireside</th>
-									</tr>
-									<tr>
-										<td class="time">9:00-5:00 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="training#clojurescript">ClojureScript</a></div>
-											<div class="speaker">David Nolen</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="training#clojure">Intro to Clojure Lab</a></div>
-										    <div class="speaker">Alex Miller, Katherine Fellows</div>
-										</td>
-									</tr>
-									<tr>
-										<th class="recess">Sun Apr 19</th>
-										<th class="recess">Gevurtz</th>
-										<th class="recess">Fireside</th>
-									</tr>
-									<tr>
-										<td class="time">9:00-11:00 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="training#macros">Macros</a></div>
-											<div class="speaker">Colin Jones</div>
-										</td>
-										<td class="slot talk" rowspan="3">
-											<div class="title"><a href="training#clojure">Intro to Clojure Lab (cont)</a></div>
-										    <div class="speaker">Alex Miller, Katherine Fellows</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">12:30-2:30 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="training#om">Om</a></div>
-											<div class="speaker">David Nolen</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">3:00-5:00 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="training#async">core.async</a></div>
-											<div class="speaker">Luke VanderHart</div>
-										</td>
-									</tr>
-								</tbody></table>										
+					<h2>Clojure/west 2016</h2>
+					<p>Seattle, Washington<br/>
+						 Seattle Marriott Waterfront<br/>
+						 April 15, 9:00 am - April 16, 6:00 pm<br/>
+						 
+						 <br/>
+	 					<ul class="buttons">
+	 					  <!-- <li><a href="https://ti.to/cognitect/clojure-conj-2015" class="button special">register</a></li> -->
+	 					  <li><a href="sponsorship" class="button special">sponsor</a></li>
+	 					</ul>
 						
-						  <h2>conference</h2>
-						  <p>Location: Gerding Theater, 128 NW Eleventh Avenue </p>
+					<h2>About Clojure/west</h2>
+					<p>Clojure/west is the biggest Clojure conference in the western United States.<br/>
+						Founded in 2012, the conference is a great place to meet Clojure developers and<br/>
+						learn about what is happening in the language, in the community, and in companies<br/> 						using Clojure. Clojure/west features two tracks of sessions.</p>
+					<br/>
+					<p>This year's event will be held for the first time in Seattle, Washington.<br/>
+						Last year's event in Portland was the biggest yet with 450 attendees and we<br/>
+						expect to be as big or bigger this year!</p>
+					</header>
+					
 
-								<header>
-                                     <h3>monday, apr 20</h3>
-								</header>
-								<table><tbody>
-									<tr>
-										<th class="recess">&nbsp;</th>
-										<th class="recess">Gerding Theater</th>
-										<th class="recess">Gerding Studio</th>
-									</tr>
-									<tr>
-										<td class="time">8:00-8:45 am</td>
-										<td class="slot recess" colspan="2">
-											<div class="title">Registration</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">8:45-9:00 am</td>
-										<td class="slot talk">
-											<div class="title">Welcome</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">9:00-9:40 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#lvanderhart">The ReactJS Landscape</a></div>
-											<div class="speaker">Luke VanderHart</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#jhume">Life of a Clojure Expression</a></div>
-											<div class="speaker">John Hume</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">9:50-10:30 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#rkrahn">Programming Clojure, Smalltalk-Style</a></div>
-											<div class="speaker">Robert Krahn</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#lbarrett">Clojure Parallelism: Beyond Futures</a></div>
-											<div class="speaker">Leon Barrett</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">10:40-11:20 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#adipert">Boot Can Build It</a></div>
-											<div class="speaker">Alan Dipert, Micha Niskin</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#fhanreich">HoneySQL: SQL Queries as Clojure Data Structures</a></div>
-											<div class="speaker">Fumiko Hanreich</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">11:20-1:00 pm</td>
-										<td class="slot recess" colspan="2">
-											<div class="title">Lunch (on your own)</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">1:00-1:40 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#bkourtoukov">Clojure, Sound, and Wearable Tech</a></div>
-											<div class="speaker">Boris Kourtoukov</div>
-											<div class="title"><a href="speakers#mmullaney">Well I Wouldn't Want To Make a *Dys*functional Game</a></div>
-											<div class="speaker">Morgan Mullaney</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">1:50-2:30 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#rneufeld">Simulant in Anger</a></div>
-											<div class="speaker">Ryan Neufeld</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#nsmith">Intro to Trapperkeeper</a></div>
-											<div class="speaker">Nathaniel Smith, Ruth Linehan</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">2:30-3:00 pm</td>
-										<td class="slot recess" colspan="2">
-											<div class="title">Break</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">3:00-3:40 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#bbloom">Building CircleCI's Front-end With Om</a></div>
-											<div class="speaker">Brandom Bloom</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#nsorenson">Domain Specific Type Systems</a></div>
-											<div class="speaker">Nathan Sorenson</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">3:50-4:50 pm</td>
-										<td class="slot talk">
-											<div class="title">Clojure and ClojureScript Update</div>
-											<div class="speaker">Alex Miller, David Nolen</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">7:00-10:00 pm</td>
-										<td class="slot special" colspan="2">
-											<div class="title"><a href="https://github.com/clojurewest/clojurewest2015/wiki/Unsessions">Unsessions</a></div>
-											<div class="speaker">At Embassy Suites!</div>
-										</td>
-									</tr>
-								</tbody></table>
-
-								<header>
-                                     <h3>tuesday, apr 21</h3>
-								</header>
-								<table><tbody>
-									<tr>
-										<th class="recess">&nbsp;</th>
-										<th class="recess">Gerding Theater</th>
-										<th class="recess">Gerding Studio</th>
-									</tr>
-									<tr>
-										<td class="time">8:45-9:00 am</td>
-										<td class="slot talk">
-											<div class="title">Welcome</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">9:00-9:40 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#gfredericks">Purely Random</a></div>
-											<div class="speaker">Gary Fredericks</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#jmacaulay">Composing Interactive Apps With Zelkova</a></div>
-											<div class="speaker">James MacAulay</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">9:50-10:30 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#rtoland">Staying SAFE: A Foundation for Clojure Apps</a></div>
-											<div class="speaker">Ron Toland</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#emachkasova">Adapting Clojure to an Intro CS Classroom</a></div>
-											<div class="speaker">Elena Machkasova</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">10:40-11:20 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#cfleming">Debugging Clojure Code With Cursive</a></div>
-											<div class="speaker">Colin Fleming</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#pmudivarti">Responsive Grids with Garden and CLJS</a></div>
-											<div class="speaker">Priyatam Mudivarti</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">11:20-1:00 pm</td>
-										<td class="slot recess" colspan="2">
-											<div class="title">Lunch (on your own)</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">1:00-1:40 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#yharada">Joys and Pains to Write a Clojure Curriculum for Beginners</a></div>
-											<div class="speaker">Yoko Harada</div>
-											<div class="title"><a href="speakers#echaran">Exploring Programming Clojure In Other Human Languages</a></div>
-											<div class="speaker">Elango Cheran</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">1:50-2:30 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#jadkisson">Design and Prototype a Language In Clojure</a></div>
-											<div class="speaker">Jeanine Adkisson</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#smacbeth">Data Science in Clojure</a></div>
-											<div class="speaker">Soren Macbeth</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">2:40-3:20 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#ttallman">Composable Healthcare</a></div>
-											<div class="speaker">Tyler Tallman</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#sjohnson">Pattern Matching in Clojure: Best Practices</a></div>
-											<div class="speaker">Sean Johnson</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">3:20-3:40 pm</td>
-										<td class="slot recess" colspan="2">
-											<div class="title">Break</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">3:40-4:20 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#tgardner">Games and 3D Graphics in Arcadia</a></div>
-											<div class="speaker">Timothy Gardner, Ramsey Nasser</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#tfaulhaber">Creating Beautiful Spreadsheets With Data and Templates</a></div>
-											<div class="speaker">Tom Faulhaber</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">4:30-5:10 pm</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#dlidral-porter">Generating Art In Many Worlds</a></div>
-											<div class="speaker">Dan Lidral-Porter</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">6:30-9:30 pm</td>
-										<td class="slot special" colspan="2">
-											<div class="title">Party</div>
-											<div class="speaker">At <a href="http://puppetlabs.com/">Puppetlabs</a>!</div>
-										</td>
-									</tr>
-								</tbody></table>										
-
-								<header>
-                                     <h3>wednesday, apr 22</h3>
-								</header>
-								<table><tbody>
-									<tr>
-										<th class="recess">&nbsp;</th>
-										<th class="recess">Gerding Theater</th>
-										<th class="recess">Gerding Studio</th>
-									</tr>
-									<tr>
-										<td class="time">8:45-9:05 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#csmall">How Clojure Saved My Chickens</a></div>
-											<div class="speaker">Christopher Small</div>
-										</td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="time">9:10-9:50 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#ztellman">Everything Will Flow</a></div>
-											<div class="speaker">Zach Tellman</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#zkim">No-Strings Mobile App Dev for Clojure</a></div>
-											<div class="speaker">Zachary Kim</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">10:00-10:40 am</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#amarcar">Clojure At Scale</a></div>
-											<div class="speaker">Anthony Marcar</div>
-										</td>
-										<td class="slot talk">
-											<div class="title"><a href="speakers#bhauman">Developing ClojureScript With Figwheel</a></div>
-											<div class="speaker">Bruce Hauman</div>
-										</td>
-									</tr>
-									<tr>
-										<td class="time">10:50-11:30 am</td>
-										<td class="slot keynote">
-											<div class="title"><a href="speakers#mmitchell">Visual Situation Recognition: An Integration of Deep Networks and Analogy-Making</a></div>
-											<div class="speaker">Melanie Mitchell</div>
-										</td>
-										<td></td>
-									</tr>
-								</tbody></table>									
-
-<!--
-				          <ul class="buttons">
-					        <li><a href="speakers" class="button">list of speakers</a></li>
-				          </ul>
--->
-								
-					</section>
 
 					
 				<!-- Three -->
@@ -406,55 +72,19 @@
 						</header>
 				
 							<section>
-								<a href="http://www.pcs.org/about-the-armory/" class="image"><img src="images/theater.jpg" alt="Gerding Theater" /></a>
+								<a href="http://www.marriott.com/hotels/travel/seawf-seattle-marriott-waterfront/" class="image"><img src="images/smw.jpg" alt="Seattle Marriott Waterfront" /></a>
 								<header>
-								  <h3>&nbsp;<br>gerding theater</h3>
+								  <h3>&nbsp;<br>seattle marriott waterfront</h3>
 								</header>
-								<p>128 NW Eleventh Avenue <br>
-								   Portland, OR 97209 </p>
+								<p>2100 Alaskan Way <br>
+								   Seattle, WA 98121 </p>
 							</section>
-							
-
-						<div class="row">
-							<div class="6u">
-								
-								<section> <a href="http://embassysuites3.hilton.com/en/hotels/oregon/embassy-suites-portland-downtown-PDXPSES/index.html" class="image feature"><img src="images/embassysuites.jpg" alt="Embassy Suites Portland Downtown" width="400" title="Embassy Suites" /></a>
-									<header>
-									  <h3>embassy suites portland downtown</h3>
-									</header>
-									<p>319 SW Pine Street <br>
-									  Portland, OR 97204 <br>
-									  (503)-279-9000 <br>
-									  <a href="http://embassysuites.hilton.com/en/es/groups/personalized/P/PDXPSES-CWC-20150415/index.jhtml">Reserve your hotel room</a>, $174/night </p>
-								</section>							
-							
-							</div>
-							<div class="6u">
-							
-								<section>
-									<a href="http://trimet.org/max/" class="image feature"><img src="images/airports.jpg" alt="airport" /></a>
-									<header>
-									  <h3>airport</h3>
-									</header>
-									<p> Portland International Airport (PDX): <br>									  
-									  40 minutes via <a href="http://trimet.org/max/">MAX Red Line</a> ($2.50) or ~ $30 Taxi </p>
-								</section>
-
-							</div>
-						</div>
-
-						<!--
-						<footer class="major">
-							<ul class="buttons">
-								<li><a href="#" class="button">See More</a></li>
-							</ul>
-						</footer>
-						-->
-							
 					</section>
 					
 				<!-- Sponsors -->
+<!--
 					<section class="wrapper style3 container special">
+
 
 							<section>
 								<header>
@@ -468,191 +98,10 @@
 									<a href="http://www.factual.com/" class="logo"><img src="images/sponsors/factual.png" alt="Factual" width="220" title="Factual" /></a>
 								</section>														
 							</div>
-							
-							<div class="4u">
-								<section> 
-									<a href="http://www.staples-sparx.com/" class="logo"><img src="images/sponsors/sparx.jpg" alt="SparX" width="220" title="SparX" /></a>
-								</section>														
-							</div>
-							
-							<div class="4u">
-								<section> 
-									<a href="http://www.walmartlabs.com/" class="logo"><img src="images/sponsors/walmartlabs.jpg" alt="WalmartLabs" width="220" title="WalmartLabs" /></a>
-								</section>														
-							</div>
-							
 						</div>
-
-							<section>
-								<header>
-								  <h2>gold sponsors</h2>
-								</header>
-							</section>
-
-						<div class="row half">
-							<div class="3u">								
-								<section> 
-									<a href="https://jobs.mayvenn.com" class="logo"><img src="images/sponsors/Mayvenn-Logo.png" alt="Mayvenn" width="160" title="Mayvenn" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="3u">								
-								<section> 
-									<a href="http://quintype.com/" class="logo"><img src="images/sponsors/quintype.png" alt="Quintype"  title="Quintype" width="120" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="3u">								
-								<section> 
-									<a href="https://www.fundingcircle.com/" class="logo"><img src="images/sponsors/fc-logo.png" alt="Funding Circle" width="160" title="Funding Circle" /></a>
-									<p></p>
-								</section>														
-							</div>		
-							<div class="3u">
-								<section> 
-									<a href="http://twosigma.com/" class="logo"><img src="images/sponsors/twosigma.jpg" alt="Two Sigma" width="160" title="Two Sigma" /></a>
-								</section>														
-							</div>				
-						</div>
-						
-						 	<section>
-								<header>
-								  <h2>silver sponsors</h2>
-								</header>
-							</section>
-						
-						<div class="row half">
-							<div class="3u">								
-								<section> 
-									<a href="http://nilenso.com/" class="logo"><img src="images/sponsors/nilenso.png" alt="nilenso" width="160" title="nilenso" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="3u">								
-								<section> 
-									<a href="http://www.fullcontact.com/" class="logo"><img src="images/sponsors/fullcontact.png" alt="FullContact" width="160" title="FullContact" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="3u">								
-								<section> 
-									<a href="http://www.simple.com/" class="logo"><img src="images/sponsors/simple.gif" alt="Simple" width="160" title="Simple" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="3u">								
-								<section> 
-									<a href="http://yieldbot.com/" class="logo"><img src="images/sponsors/yieldbot.png" alt="Yieldbot" width="160" title="Yieldbot" /></a>
-									<p></p>
-								</section>														
-							</div>
-						</div>
-						
-						<div class="row half">
-							<div class="4u">								
-								<section> 
-									<a href="http://8thlight.com/" class="logo"><img src="images/sponsors/8thlight.jpg" alt="8th Light" width="160" title="8th Light" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="4u">								
-								<section> 
-									<a href="http://www.livingsocial.com/" class="logo"><img src="images/sponsors/livingsocial.jpg" alt="Living Social" width="160" title="Living Social" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="4u">								
-								<section> 
-									<a href="http://www.appnexus.com/" class="logo"><img src="images/sponsors/appnexus.png" alt="AppNexus" width="160" title="AppNexus" /></a>
-									<p></p>
-								</section>														
-							</div>
-						</div>
-						
-						<div class="row half">
-							<div class="6u">								
-								<section> 
-									<header>
-									  <h2>party sponsor</h2>
-									</header>
-									<a href="http://puppetlabs.com/" class="logo"><img src="images/sponsors/puppet.png" alt="Puppet Labs" width="160" title="Puppet Labs" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="6u">								
-								<section> 
-									<header>
-									  <h2>lanyard sponsor</h2>
-									</header>
-									<a href="https://jobs.mayvenn.com" class="logo"><img src="images/sponsors/Mayvenn-Logo.png" alt="Mayvenn" width="180" title="Mayvenn" /></a>
-								</section>														
-							</div>
-						</div>
-
-						<div class="row half">
-							<div class="12u">								
-								<section> 
-									<header>
-									  <h2>supporting sponsor</h2>
-									</header>
-									<a href="https://www.blacksintechnology.net" class="logo"><img src="images/sponsors/bit.jpg" alt="Blacks In Technology" width="200" title="Blacks In Technology" /></a>
-									<p></p>
-								</section>														
-							</div>
-						</div>
-						
-							<section>
-								<header>
-								  <h2>opportunity grant sponsors</h2>
-								</header>
-							</section>
-
-						<div class="row half">
-							<div class="4u">								
-								<section> 
-									<a href="http://adzerk.com/" class="logo"><img src="images/sponsors/adzerk.png" alt="Adzerk" width="160" title="Adzerk" /></a>
-									<p></p>
-								</section>														
-							</div>
-							<div class="4u">								
-								<section> 
-									<a href="http://homegrown.io/" class="logo"><img src="images/sponsors/homegrownlabs.png" alt="Homegrown Labs"  title="Homegrown Labs" width="160" /></a>
-									<p></p>
-								</section>														
-							</div>	
-							<div class="4u">								
-								<section> 
-									<a href="http://intentmedia.com/" class="logo"><img src="images/sponsors/intentmedia.png" alt="Intent Media"  title="Intent Media" width="160" /></a>
-									<p></p>
-								</section>														
-							</div>
-
-						</div>
-						<div class="row half">
-							<div class="6u">								
-								<section> 
-									<a href="http://yieldbot.com/" class="logo"><img src="images/sponsors/yieldbot.png" alt="Yieldbot" width="160" title="Yieldbot" /></a>
-									<p></p>
-								</section>														
-							</div>							
-							<div class="6u">								
-								<section> 
-									<a href="http://www.simple.com/" class="logo"><img src="images/sponsors/simple.gif" alt="Simple" width="160" title="Simple" /></a>
-									<p></p>
-								</section>														
-							</div>
-						</div>
-
-						<!--
-						<footer class="major">
-							<ul class="buttons">
-								<li><a href="#" class="button">See More</a></li>
-							</ul>
-						</footer>
-						-->
-							
+														
 					</section>					
-					
+-->					
 			</article>
 
 		<!-- CTA -->
@@ -663,9 +112,9 @@
 				</header>
 				<footer>
 					<ul class="buttons">
-					  <li><a href="https://clojurewest2015.eventbrite.com/" class="button special">register</a></li>
+					  <!-- <li><a href="http://" class="button special">register</a></li> -->
 					  <li><a href="sponsorship" class="button">sponsor</a></li>
-					  <!-- <li><a href="https://cognitect.wufoo.com/forms/clojurewest-2015-call-for-presentations/" class="button">submit talk</a></li> -->
+					  <!-- <li><a href="http://" class="button">submit talk</a></li> -->
 					</ul>
 				</footer>
 			
