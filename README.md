@@ -1,3 +1,3 @@
-# Clojure/West Jekyll site
+# Clojure/west Jekyll site
 
 
