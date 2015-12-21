@@ -67,15 +67,15 @@ title: Clojure/west 2016 - Opportunity Grants
   <tbody>
     <tr>
       <th scope="col"><div align="left"><strong>Sponsorship Level</strong></div></th>
-      <th scope="col"><strong>Iron</strong></th>
-      <th scope="col"><strong>Bronze</strong></th>
       <th scope="col"><strong>Titanium</strong></th>
+      <th scope="col"><strong>Bronze</strong></th>
+      <th scope="col"><strong>Iron</strong></th>
     </tr>
     <tr>
       <td><div align="left">Cost</div></td>
-      <td>$1,000</td>
-      <td>$2,000</td>
       <td>$4,000</td>
+      <td>$2,000</td>
+      <td>$1,000</td>
     </tr>
     <tr>
       <td><div align="left">Thank you tweet from @clojurewest</div></td>
@@ -91,9 +91,9 @@ title: Clojure/west 2016 - Opportunity Grants
     </tr>
     <tr>
       <td><div align="left">Top placement on Opportunity Grant web page</div></td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
       <td><i class="fa fa-check"></i></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
 </tbody>
 </table>
