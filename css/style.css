@@ -770,6 +770,8 @@
 		min-width: 13em;
 		padding: 1em 0;
 		text-transform: uppercase;
+		list-style: none;
+		list-style-position: outside;
 	}
 
 		.dropotron.level-0 {
