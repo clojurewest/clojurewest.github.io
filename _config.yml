@@ -4,7 +4,7 @@
 
 url: http://clojurewest.github.io
 title: Clojure/west 2016
-email: clojure-west@cognitect.com
+email: events@cognitect.com
 description: > # "Clojure/west 2016"
 
 # ----------------------- #
@@ -22,7 +22,3 @@ permalink: /:title
 social:
   - title: twitter
     url: https://twitter.com/ClojureWest
-#  - title: github
-#    url: https://github.com/IronSummitMedia/startbootstrap
-#  - title: linkedin
-#    url: 
