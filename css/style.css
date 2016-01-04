@@ -59,6 +59,13 @@
 		margin: 0 0 2em 0;
 	}
 
+	ul, ol {
+		list-style: circle;
+		list-style-position: inside;
+		padding-left: 10px;
+		margin-left: 5px;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
